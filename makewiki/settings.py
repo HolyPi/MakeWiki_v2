@@ -25,7 +25,7 @@ SECRET_KEY = '1yct-t!2bnkgc7j59z+9cdd2k)@y+ftqor$!aya()3if^cnlo-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'uniqueprojectname.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'makewiki-jc.herokuapp.com']
 
 
 # Application definition
@@ -126,6 +126,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
+STATIC_ROOT = os.path.join(BASE_DIR, ‘static’)
+
 STATIC_URL = '/static/'
 
 # wiki app settings
@@ -140,7 +142,7 @@ LOGOUT_REDIRECT_URL = "/"
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 
-STATIC_ROOT = os.path.join(BASE_DIR, ‘static’)
+
 
 # PROTIP:
 # Need to override settings? Create a local_settings.py file
