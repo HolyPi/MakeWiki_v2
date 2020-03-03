@@ -1,1 +1,1 @@
-web: gunicorn app:app --log-file=-
+web: gunicorn makewiki.wsgi --log-file -
