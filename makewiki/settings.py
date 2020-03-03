@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['localhost', 'makewiki-jc.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
+    'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -38,8 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'wiki',
-    'accounts',
-    'rest_framework'
+    'accounts'
+    
 ]
 
 MIDDLEWARE = [
