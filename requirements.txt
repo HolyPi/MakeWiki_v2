@@ -9,7 +9,7 @@ chardet==3.0.4
 Click==7.0
 coverage==4.5.4
 Django==3.0.3
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 dominate==2.4.0
 Flask==1.1.1
 Flask-Bootstrap==3.3.7.1
