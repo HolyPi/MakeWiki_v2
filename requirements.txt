@@ -43,7 +43,7 @@ requests==2.22.0
 six==1.12.0
 sqlparse==0.3.0
 typed-ast==1.4.0
-urllib3==1.25.3
+urllib3==1.26.5
 virtualenv==16.7.8
 visitor==0.1.3
 vobject==0.9.6.1
